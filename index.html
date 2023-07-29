@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="contenedor">
+            <img src="pregunta.png" alt="">
+        </div>
+        <div class="contenedor-1">
+            <h2>¿Mayor, menor o igual?</h2>
+            <div>
+                <h3>Ingrese el primer valor: </h3>
+                <input type="number" class="caja" id="var-1">
+            </div>
+            <div>
+                <h3>Ingrese el segundo valor: </h3>
+                <input type="number" class="caja" id="var-2">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="contenedor">
+        <button onclick="calcular()">calcular</button><br><br>
+        <button onclick="limpiar()">Limpiar</button>
+    </div>
+    <div class="contenedor-1">
+        <div class="respuesta">
+            <h1>Respuesta</h1>
+            <h2 id="respuesta">
+            </h2>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
